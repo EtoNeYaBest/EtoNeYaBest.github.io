@@ -6,7 +6,7 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '0209 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0210 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 5.188.141.144
   port: 2053
@@ -22,7 +22,7 @@ proxies:
   servername: hh.ru
   grpc-opts:
     grpc-service-name: grpc-direct
-- name: '0488 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-MAX | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0490 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-MAX | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 217.16.29.31
   port: 65535
@@ -36,7 +36,7 @@ proxies:
   client-fingerprint: firefox
   servername: max.ru
   flow: xtls-rprx-vision
-- name: '0534 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0536 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 5.188.141.144
   port: 2053
@@ -52,7 +52,7 @@ proxies:
   servername: hh.ru
   grpc-opts:
     grpc-service-name: grpc-direct
-- name: '1249 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '1253 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 89.208.229.243
   port: 2053
@@ -152,10 +152,10 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '0209 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '0488 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-MAX | VLESS | TG: @YoutubeUnBlockRu'
-  - '0534 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '1249 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '0210 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '0490 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-MAX | VLESS | TG: @YoutubeUnBlockRu'
+  - '0536 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '1253 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
