@@ -6,7 +6,7 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '0061 | 🇪🇸 Spain | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '0067 | 🇪🇸 Spain | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
   type: vmess
   server: 85.90.217.42
   port: 22324
@@ -15,7 +15,7 @@ proxies:
   cipher: auto
   udp: true
   tls: false
-- name: '1127 | 🇸🇪 Sweden | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '1172 | 🇸🇪 Sweden | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
   type: vmess
   server: 62.60.151.41
   port: 57865
@@ -109,8 +109,8 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '0061 | 🇪🇸 Spain | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '1127 | 🇸🇪 Sweden | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0067 | 🇪🇸 Spain | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1172 | 🇸🇪 Sweden | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
