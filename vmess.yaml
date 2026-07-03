@@ -6,16 +6,7 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '0335 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  type: vmess
-  server: 216.106.183.35
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-- name: '0546 | 🇪🇸 Spain | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '0039 | 🇪🇸 Spain | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
   type: vmess
   server: 85.90.217.42
   port: 22324
@@ -24,7 +15,26 @@ proxies:
   cipher: auto
   udp: true
   tls: false
-- name: '0935 | 🇫🇷 France | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '0474 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vmess
+  server: 216.106.183.35
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+- name: '0610 | 🇹🇷 Turkey | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vmess
+  server: 94.131.108.36
+  port: 443
+  uuid: 9855f1f0-a800-40d4-8b38-c7d3eb79302d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+- name: '0662 | 🇫🇷 France | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
   type: vmess
   server: 194.60.95.7
   port: 59525
@@ -37,16 +47,6 @@ proxies:
   ws-opts:
     path: /66ff581f-98d0-43cc-cecb-a7232f411c6d
     headers: {}
-- name: '1272 | 🇹🇷 Turkey | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  type: vmess
-  server: 94.131.108.36
-  port: 443
-  uuid: 9855f1f0-a800-40d4-8b38-c7d3eb79302d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  network: ws
 tun:
   enable: true
   stack: system
@@ -131,10 +131,10 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '0335 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '0546 | 🇪🇸 Spain | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '0935 | 🇫🇷 France | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '1272 | 🇹🇷 Turkey | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0039 | 🇪🇸 Spain | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0474 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0610 | 🇹🇷 Turkey | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0662 | 🇫🇷 France | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
