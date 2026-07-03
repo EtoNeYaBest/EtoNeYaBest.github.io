@@ -6,65 +6,14 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '0917 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0091 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-MAX | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
-  server: 5.188.141.144
-  port: 2053
-  uuid: fe3a2f0a-302e-11f1-8dcf-ea2d61e96ea2
+  server: 5.188.140.160
+  port: 5443
+  uuid: 53d0c9d8-0d59-453c-a5da-8f7c81f5ea03
   udp: true
   tls: true
-  network: grpc
-  reality-opts:
-    public-key: WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M
-    short-id: 7824dfd19eab1acc
-    support-x25519mlkem768: true
-  client-fingerprint: firefox
-  servername: hh.ru
-  grpc-opts:
-    grpc-service-name: grpc-direct
-- name: '1348 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 5.188.141.144
-  port: 2053
-  uuid: fe3a2f0a-302e-11f1-8dcf-ea2d61e96ea2
-  udp: true
-  tls: true
-  network: grpc
-  reality-opts:
-    public-key: WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M
-    short-id: 7824dfd19eab1acc
-    support-x25519mlkem768: true
-  client-fingerprint: chrome
-  servername: hh.ru
-  grpc-opts:
-    grpc-service-name: grpc-direct
-- name: '1561 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 89.208.229.243
-  port: 2053
-  uuid: fe3a2f0a-302e-11f1-8dcf-ea2d61e96ea2
-  udp: true
-  tls: true
-  network: grpc
-  reality-opts:
-    public-key: WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M
-    short-id: e432eea05ffadf84
-    support-x25519mlkem768: true
-  client-fingerprint: chrome
-  servername: hh.ru
-  grpc-opts:
-    grpc-service-name: grpc-direct
-- name: '1653 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-MAX | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 217.16.29.31
-  port: 65535
-  uuid: 910776af-dce0-425d-ae28-4fb154b9f7c2
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: MAsHVMzSDwqVpFoCqpxPSjLeQECxlWiHdpaQKRWq3AM
-    short-id: 495739b968708ab7
-    support-x25519mlkem768: true
+  network: raw
   client-fingerprint: firefox
   servername: max.ru
   flow: xtls-rprx-vision
@@ -152,10 +101,7 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '0917 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '1348 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '1561 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '1653 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-MAX | VLESS | TG: @YoutubeUnBlockRu'
+  - '0091 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-MAX | VLESS | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
