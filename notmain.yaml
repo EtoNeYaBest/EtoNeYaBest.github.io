@@ -8,20 +8,18 @@ tcp-concurrent: true
 proxies:
 - name: https://t.me/YoutubeUnBlockRu
   type: vless
-  server: 81.94.148.75
+  server: 87.228.101.211
   port: 8443
-  uuid: 80edb9fb-4fb5-45e6-a72f-6c5fb7a8aa31
+  uuid: 0712532f-67bb-41b6-a726-6444d51e234e
   udp: true
   tls: true
-  network: grpc
+  network: xhttp
   reality-opts:
-    public-key: DaIRouGSxxQDEv9WKRxD79b2Vt0fsw4yQOTeAmXUYCM
-    short-id: 28a059440d3d5ba1
+    public-key: 4rOkMPLt9aMOXiDmXkPX6RQP6jd6qBLBvGJx45JFWFk
+    short-id: ee82aca370f4428b
     support-x25519mlkem768: true
-  client-fingerprint: chrome
-  servername: ads.x5.ru
-  grpc-opts:
-    grpc-service-name: ads.x5.ru
+  client-fingerprint: firefox
+  servername: rutube.ru
 tun:
   enable: true
   stack: system
