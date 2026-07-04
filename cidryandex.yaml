@@ -6,33 +6,19 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '0535 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | 🏳️ SNI-X5 | VLESS | TG: @YoutubeUnBlockRu'
+- name: '1242 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
-  server: 84.201.155.125
+  server: 158.160.196.38
   port: 443
-  uuid: a9f9bbcf-c3e1-4b4a-a465-0ff340c953c7
+  uuid: a5ea9247-79f3-4655-aece-3fb51e1e669e
   udp: true
   tls: true
   reality-opts:
-    public-key: u918pQoBaR_OKVik9dhLdqhTWDpyWdh84MjukzFCZio
-    short-id: c6d0b2fa72eb6389
+    public-key: 6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE
+    short-id: 34256b39b4ebb864
     support-x25519mlkem768: true
   client-fingerprint: firefox
-  servername: ads.x5.ru
-  flow: xtls-rprx-vision
-- name: '0952 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | 🏳️ SNI-X5 | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 84.201.155.125
-  port: 443
-  uuid: a9f9bbcf-c3e1-4b4a-a465-0ff340c953c7
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: u918pQoBaR_OKVik9dhLdqhTWDpyWdh84MjukzFCZio
-    short-id: c6d0b2fa72eb6389
-    support-x25519mlkem768: true
-  client-fingerprint: edge
-  servername: ads.x5.ru
+  servername: rezerv9.yunus.guru
   flow: xtls-rprx-vision
 tun:
   enable: true
@@ -118,8 +104,7 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '0535 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | 🏳️ SNI-X5 | VLESS | TG: @YoutubeUnBlockRu'
-  - '0952 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | 🏳️ SNI-X5 | VLESS | TG: @YoutubeUnBlockRu'
+  - '1242 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
