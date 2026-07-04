@@ -6,7 +6,17 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '2750 | 🌐 Unknown | VMESS | TG: @YoutubeUnBlockRu'
+- name: '1581 | 🇮🇹 Italy | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vmess
+  server: 57.131.35.243
+  port: 443
+  uuid: 8f9391ed-fede-4ee6-b7c2-89d0939545bd
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+- name: '2760 | 🌐 Unknown | VMESS | TG: @YoutubeUnBlockRu'
   type: vmess
   server: c87s5.portablesubmarines.com
   port: 18339
@@ -99,7 +109,8 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '2750 | 🌐 Unknown | VMESS | TG: @YoutubeUnBlockRu'
+  - '1581 | 🇮🇹 Italy | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '2760 | 🌐 Unknown | VMESS | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
