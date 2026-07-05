@@ -16,7 +16,7 @@ proxies:
   udp: true
   tls: false
   network: ws
-- name: '0710 | 🌐 Unknown | VMESS | TG: @YoutubeUnBlockRu'
+- name: '0711 | 🌐 Unknown | VMESS | TG: @YoutubeUnBlockRu'
   type: vmess
   server: c87s5.portablesubmarines.com
   port: 18339
@@ -110,7 +110,7 @@ proxy-groups:
   proxies:
   - ⚡️ Авто
   - '0369 | 🇮🇹 Italy | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '0710 | 🌐 Unknown | VMESS | TG: @YoutubeUnBlockRu'
+  - '0711 | 🌐 Unknown | VMESS | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
