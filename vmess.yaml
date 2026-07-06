@@ -6,7 +6,7 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '0047 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '0062 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
   type: vmess
   server: 165.140.216.141
   port: 443
@@ -15,7 +15,7 @@ proxies:
   cipher: auto
   udp: true
   tls: false
-- name: '0078 | 🇨🇦 Canada | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '0100 | 🇨🇦 Canada | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
   type: vmess
   server: 23.162.200.198
   port: 18000
@@ -24,7 +24,7 @@ proxies:
   cipher: auto
   udp: true
   tls: false
-- name: '0356 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '0425 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
   type: vmess
   server: 69.84.182.49
   port: 80
@@ -35,7 +35,7 @@ proxies:
   tls: false
   network: ws
   servername: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-- name: '0371 | 🇮🇹 Italy | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '0441 | 🇮🇹 Italy | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
   type: vmess
   server: 57.131.35.243
   port: 443
@@ -45,7 +45,7 @@ proxies:
   udp: true
   tls: false
   network: ws
-- name: '0465 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '0555 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
   type: vmess
   server: 107.173.7.186
   port: 2095
@@ -58,7 +58,7 @@ proxies:
   ws-opts:
     path: 383737a2-a196-44b6-a9ac-4f8cc23c9637-vm
     headers: {}
-- name: '0525 | 🌐 Unknown | VMESS | TG: @YoutubeUnBlockRu'
+- name: '0622 | 🌐 Unknown | VMESS | TG: @YoutubeUnBlockRu'
   type: vmess
   server: c722s801.portablesubmarines.com
   port: 16025
@@ -67,7 +67,7 @@ proxies:
   cipher: auto
   udp: true
   tls: false
-- name: '0554 | 🌐 Unknown | VMESS | TG: @YoutubeUnBlockRu'
+- name: '0654 | 🌐 Unknown | VMESS | TG: @YoutubeUnBlockRu'
   type: vmess
   server: c87s5.portablesubmarines.com
   port: 18339
@@ -160,13 +160,13 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '0047 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '0078 | 🇨🇦 Canada | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '0356 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '0371 | 🇮🇹 Italy | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '0465 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '0525 | 🌐 Unknown | VMESS | TG: @YoutubeUnBlockRu'
-  - '0554 | 🌐 Unknown | VMESS | TG: @YoutubeUnBlockRu'
+  - '0062 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0100 | 🇨🇦 Canada | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0425 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0441 | 🇮🇹 Italy | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0555 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0622 | 🌐 Unknown | VMESS | TG: @YoutubeUnBlockRu'
+  - '0654 | 🌐 Unknown | VMESS | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
