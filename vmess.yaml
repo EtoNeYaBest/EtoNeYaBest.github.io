@@ -6,25 +6,7 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '0062 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  type: vmess
-  server: 165.140.216.141
-  port: 443
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-- name: '0100 | 🇨🇦 Canada | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  type: vmess
-  server: 23.162.200.198
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-- name: '0425 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '0099 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
   type: vmess
   server: 69.84.182.49
   port: 80
@@ -35,17 +17,34 @@ proxies:
   tls: false
   network: ws
   servername: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-- name: '0441 | 🇮🇹 Italy | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '0463 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
   type: vmess
-  server: 57.131.35.243
+  server: 165.140.216.141
   port: 443
-  uuid: 8f9391ed-fede-4ee6-b7c2-89d0939545bd
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
   alterId: 0
   cipher: auto
   udp: true
   tls: false
-  network: ws
-- name: '0555 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '0556 | 🇨🇦 Canada | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+- name: '1165 | 🌐 Unknown | VMESS | TG: @YoutubeUnBlockRu'
+  type: vmess
+  server: c722s801.portablesubmarines.com
+  port: 16025
+  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+- name: '1238 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
   type: vmess
   server: 107.173.7.186
   port: 2095
@@ -58,24 +57,6 @@ proxies:
   ws-opts:
     path: 383737a2-a196-44b6-a9ac-4f8cc23c9637-vm
     headers: {}
-- name: '0622 | 🌐 Unknown | VMESS | TG: @YoutubeUnBlockRu'
-  type: vmess
-  server: c722s801.portablesubmarines.com
-  port: 16025
-  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-- name: '0654 | 🌐 Unknown | VMESS | TG: @YoutubeUnBlockRu'
-  type: vmess
-  server: c87s5.portablesubmarines.com
-  port: 18339
-  uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
 tun:
   enable: true
   stack: system
@@ -160,13 +141,11 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '0062 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '0100 | 🇨🇦 Canada | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '0425 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '0441 | 🇮🇹 Italy | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '0555 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '0622 | 🌐 Unknown | VMESS | TG: @YoutubeUnBlockRu'
-  - '0654 | 🌐 Unknown | VMESS | TG: @YoutubeUnBlockRu'
+  - '0099 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0463 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0556 | 🇨🇦 Canada | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1165 | 🌐 Unknown | VMESS | TG: @YoutubeUnBlockRu'
+  - '1238 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
