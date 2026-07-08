@@ -6,7 +6,7 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '0284 | 🇨🇦 Canada | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '0277 | 🇨🇦 Canada | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
   type: vmess
   server: 23.162.200.198
   port: 18000
@@ -15,7 +15,7 @@ proxies:
   cipher: auto
   udp: true
   tls: false
-- name: '0359 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '0352 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
   type: vmess
   server: 69.84.182.49
   port: 80
@@ -26,7 +26,7 @@ proxies:
   tls: false
   network: ws
   servername: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-- name: '1022 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '1000 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
   type: vmess
   server: 107.173.7.186
   port: 2095
@@ -39,7 +39,7 @@ proxies:
   ws-opts:
     path: 383737a2-a196-44b6-a9ac-4f8cc23c9637-vm
     headers: {}
-- name: '1149 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '1123 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
   type: vmess
   server: 165.140.216.141
   port: 443
@@ -48,7 +48,7 @@ proxies:
   cipher: auto
   udp: true
   tls: false
-- name: '1180 | 🌐 Unknown | VMESS | TG: @YoutubeUnBlockRu'
+- name: '1151 | 🌐 Unknown | VMESS | TG: @YoutubeUnBlockRu'
   type: vmess
   server: c722s801.portablesubmarines.com
   port: 16025
@@ -141,11 +141,11 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '0284 | 🇨🇦 Canada | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '0359 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '1022 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '1149 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '1180 | 🌐 Unknown | VMESS | TG: @YoutubeUnBlockRu'
+  - '0277 | 🇨🇦 Canada | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0352 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1000 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1123 | 🇺🇸 USA | VMESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1151 | 🌐 Unknown | VMESS | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
